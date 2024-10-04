@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.gestionresiduos"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -52,6 +52,10 @@ dependencies {
 
     implementation(libs.splashscreen)
     implementation(libs.navigation.compose)
+    implementation(libs.material3)
+
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
